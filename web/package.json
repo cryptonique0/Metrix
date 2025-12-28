@@ -1,0 +1,25 @@
+{
+  "name": "metrix-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.7.5",
+    "graphql": "^16.9.0",
+    "graphql-request": "^6.1.0",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.0.0",
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18.2.17"
+  }
+}
